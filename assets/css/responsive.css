@@ -10,6 +10,67 @@
     .navbar-light .navbar-brand {
         width: 100px;
     }
+    .main-container{
+        overflow-x: hidden;
+    }
+    .new-view-slider-par-body .owl-carousel .owl-nav button.owl-next {
+        left: 0px;
+    }
+    .new-view-slider-par-body .owl-carousel .owl-nav button.owl-prev {
+        right: 0px;
+    }
+    .news-views-item-body {
+        display: block;
+    }
+    .news-views-item-content {
+        margin-top: 38px;
+        margin-left: 0px;
+    }
+    .news-views-item-body-inner {
+        width: 100%;
+    }
+    .main-body-row {
+        height: 100vh;
+    }
+    .common_content p {
+        font-size: 11px;
+    }
+    .circle_9 {
+        top: 0%;
+        right: 0%;
+    }
+    .circle_8 {
+        top: 0%;
+        left: 0%;
+    }
+    .circle_7 {
+        top: 19%;
+        left: 0%;
+    }
+    .circle_6 {
+        top: 14%;
+        right: 25%;
+    }
+    .circle_5 {
+        bottom: 55%;
+        right: 0%;
+    }
+    .circle_4 {
+        bottom: 47%;
+        left: 7%;
+    }
+    .circle_3 {
+        bottom: 38%;
+        left: 59%;
+    }
+    .circle_2 {
+        bottom: 20%;
+        left: 55%;
+    }
+    .circle_1 {
+        bottom: 26%;
+        left: 10%;
+    }
     
 }
 /* // Small devices (landscape phones, 576px and up) */
@@ -24,6 +85,26 @@
     .navbar-light .navbar-brand {
         width: 100px;
     }
+    .main-container{
+        overflow-x: hidden;
+    }
+    .new-view-slider-par-body .owl-carousel .owl-nav button.owl-next {
+        left: 0px;
+    }
+    .new-view-slider-par-body .owl-carousel .owl-nav button.owl-prev {
+        right: 0px;
+    }
+    .news-views-item-body {
+        display: block;
+    }
+    .news-views-item-content {
+        margin-top: 38px;
+        margin-left: 0px;
+    }
+    .news-views-item-body-inner {
+        width: 100%;
+    }
+    
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -33,6 +114,9 @@
     }
     .navbar-light .navbar-nav .nav-link {
         font-size: 20px;
+    }
+    .main-container{
+        overflow-x: hidden;
     }
 }
 
