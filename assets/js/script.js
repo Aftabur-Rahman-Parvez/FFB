@@ -447,13 +447,13 @@ $(".circle_1").hover(function(){
   $(".c7").css("border-color", "#B31B1B");
   $(".c8").css("border-color", "#B31B1B");
   $(".c3").css("border-color", "#B31B1B");
-  $(".circle_1 img").attr('src', 'assets/images/Group8.png');
+  $(".circle_1 img").attr('src', 'assets/images/reserach_h.png');
 
   }, function(){
   $(".c3").css("border-color", "#DBDBDB");
   $(".c7").css("border-color", "#DBDBDB");
   $(".c8").css("border-color", "#DBDBDB");
-  $(".circle_1 img").attr('src', 'assets/images/Group9.png');
+  $(".circle_1 img").attr('src', 'assets/images/reserach.png');
 
 });
 $(".circle_2").hover(function(){
@@ -464,6 +464,7 @@ $(".circle_2").hover(function(){
   $(".c4").css("border-color", "#B31B1B");
   $(".c5").css("border-color", "#B31B1B");
   $(".c6").css("border-color", "#B31B1B");
+  $(".circle_2 img").attr('src', 'assets/images/media_h.png');
   }, function(){
   $(".c1").css("border-color", "#DBDBDB");
   $(".c2").css("border-color", "#DBDBDB");
@@ -472,6 +473,7 @@ $(".circle_2").hover(function(){
   $(".c5").css("border-color", "#DBDBDB");
   $(".c6").css("border-color", "#DBDBDB");
   $(".c2").css("border-color", "#DBDBDB");
+  $(".circle_2 img").attr('src', 'assets/images/media.png');
 });
 
 $(".circle_3").hover(function(){
@@ -480,6 +482,7 @@ $(".circle_3").hover(function(){
   $(".c14").css("border-color", "#B31B1B");
   $(".c15").css("border-color", "#B31B1B");
   $(".c16").css("border-color", "#B31B1B");
+  $(".circle_3 img").attr('src', 'assets/images/youth_h.png');
 
   }, function(){
   $(".c6").css("border-color", "#DBDBDB");
@@ -487,18 +490,21 @@ $(".circle_3").hover(function(){
   $(".c14").css("border-color", "#DBDBDB");
   $(".c15").css("border-color", "#DBDBDB");
   $(".c16").css("border-color", "#DBDBDB");
+  $(".circle_3 img").attr('src', 'assets/images/youth.png');
 
 });
 $(".circle_4").hover(function(){
   $(".c10").css("border-color", "#B31B1B");
   $(".c16").css("border-color", "#B31B1B");
   $(".c17").css("border-color", "#B31B1B");
+  // $(".circle_4 img").attr('src', 'assets/images/Group8_h.png');
 
 
   }, function(){
   $(".c10").css("border-color", "#DBDBDB");
   $(".c16").css("border-color", "#DBDBDB");
   $(".c17").css("border-color", "#DBDBDB");
+  // $(".circle_4 img").attr('src', 'assets/images/Group8_h.png');
 
 
 });
@@ -509,6 +515,7 @@ $(".circle_5").hover(function(){
   $(".c18").css("border-color", "#B31B1B");
   $(".c19").css("border-color", "#B31B1B");
   $(".c15").css("border-color", "#B31B1B");
+  $(".circle_5 img").attr('src', 'assets/images/ngo_h.png');
 
 
   }, function(){
@@ -517,6 +524,7 @@ $(".circle_5").hover(function(){
   $(".c18").css("border-color", "#DBDBDB");
   $(".c19").css("border-color", "#DBDBDB");
   $(".c15").css("border-color", "#DBDBDB");
+  $(".circle_5 img").attr('src', 'assets/images/ngo.png');
 
 });
 $(".circle_6").hover(function(){
@@ -525,6 +533,7 @@ $(".circle_6").hover(function(){
   $(".c14").css("border-color", "#B31B1B");
   $(".c19").css("border-color", "#B31B1B");
   $(".c20").css("border-color", "#B31B1B");
+  $(".circle_6 img").attr('src', 'assets/images/faith_h.png');
 
   }, function(){
   $(".c1").css("border-color", "#DBDBDB");
@@ -532,6 +541,7 @@ $(".circle_6").hover(function(){
   $(".c14").css("border-color", "#DBDBDB");
   $(".c19").css("border-color", "#DBDBDB");
   $(".c20").css("border-color", "#DBDBDB");
+  $(".circle_6 img").attr('src', 'assets/images/faith.png');
 });
 
 $(".circle_7").hover(function(){
@@ -541,6 +551,7 @@ $(".circle_7").hover(function(){
   $(".c11").css("border-color", "#B31B1B");
   $(".c12").css("border-color", "#B31B1B");
   $(".c13").css("border-color", "#B31B1B");
+  $(".circle_7 img").attr('src', 'assets/images/nutration_h.png');
 
 
   }, function(){
@@ -550,6 +561,7 @@ $(".circle_7").hover(function(){
   $(".c11").css("border-color", "#DBDBDB");
   $(".c12").css("border-color", "#DBDBDB");
   $(".c13").css("border-color", "#DBDBDB");
+  $(".circle_7 img").attr('src', 'assets/images/nutration.png');
 
 
 });
@@ -559,6 +571,7 @@ $(".circle_8").hover(function(){
   $(".c8").css("border-color", "#B31B1B");
   $(".c9").css("border-color", "#B31B1B");
   $(".c10").css("border-color", "#B31B1B");
+  $(".circle_8 img").attr('src', 'assets/images/scientists_h.png');
 
 
   }, function(){
@@ -566,6 +579,7 @@ $(".circle_8").hover(function(){
   $(".c8").css("border-color", "#DBDBDB");
   $(".c9").css("border-color", "#DBDBDB");
   $(".c10").css("border-color", "#DBDBDB");
+  $(".circle_8 img").attr('src', 'assets/images/scientists.png');
 
 });
 
@@ -573,9 +587,60 @@ $(".circle_9").hover(function(){
   $(".c11").css("border-color", "#B31B1B");
   $(".c18").css("border-color", "#B31B1B");
   $(".c20").css("border-color", "#B31B1B");
+  $(".circle_9 img").attr('src', 'assets/images/policy_h.png');
 
   }, function(){
   $(".c11").css("border-color", "#DBDBDB");
   $(".c18").css("border-color", "#DBDBDB");
   $(".c20").css("border-color", "#DBDBDB");
+  $(".circle_9 img").attr('src', 'assets/images/policy.png');
 });
+
+
+
+
+$(document).ready(function(){
+  $('.slider-for').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    // dotsClass: 'custom-dots',
+    arrows: false,
+    fade: true,
+    asNavFor: '.slider-nav'
+  });
+  $('.slider-nav').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    centerMode: false,
+    asNavFor: '.slider-for',
+    // arrows: true,
+    prevArrow: $('.prev_1'),
+    nextArrow: $('.next_1'),
+    dots: false,
+    focusOnSelect: true
+  });
+})
+
+$(".next_1").click(function(){
+  var data1 = $('.slick-current .img_1').data('title');
+  // alert(data1);
+  $(".map_1").removeClass("map-hover-color");
+  $("#"+data1).addClass("map-hover-color");
+
+});
+// $(".news_accordian").click(function(){
+//   this.classList.toggle("active");
+// })
+
+var acc = document.getElementsByClassName("news_accordian");
+var a;
+
+for (a = 0; a < acc.length; a++) {
+  acc[a].addEventListener("click", function() {
+    // console.log($(this).siblings()[2],a);
+    this.classList.toggle("active");
+    $($(this).siblings()[2]).toggle("active");
+  
+  });
+}

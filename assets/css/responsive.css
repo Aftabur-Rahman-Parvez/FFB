@@ -44,34 +44,57 @@
         left: 0%;
     }
     .circle_7 {
-        top: 19%;
+        top: 30%;
         left: 0%;
     }
     .circle_6 {
         top: 14%;
-        right: 25%;
+        right: 32%;
     }
     .circle_5 {
-        bottom: 55%;
-        right: 0%;
+        bottom: 47%;
+        right: 4%;
     }
     .circle_4 {
-        bottom: 47%;
-        left: 7%;
+        bottom: 26%;
+        left: 1%;
     }
     .circle_3 {
-        bottom: 38%;
+        bottom: 25%;
         left: 59%;
     }
     .circle_2 {
-        bottom: 20%;
-        left: 55%;
+        bottom: 2%;
+        left: 60%;
     }
     .circle_1 {
-        bottom: 26%;
-        left: 10%;
+        bottom: 2%;
+        left: 2%;
+    }
+    .common_c {
+        display:none;
+    }
+    .s_left_carosule {
+        width: 100%;
+    }
+    .s_right_carosule {
+        width: 100%;
+        left: 0%;
+    }
+    .s_left_carosule .slick-dots {
+        margin-bottom: -50px;
     }
     
+}
+@media (min-width: 200px) and (max-width: 413.98px) { 
+    .circle_2 {
+        bottom: 2%;
+        left: 55%;
+    }
+    .circle_3 {
+        bottom: 25%;
+        left: 55%;
+    }
 }
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
@@ -103,6 +126,9 @@
     }
     .news-views-item-body-inner {
         width: 100%;
+    }
+    .common_c {
+        display:none;
     }
     
 }
@@ -152,9 +178,44 @@
 @media (min-width: 1400px) and (max-width: 1599.98px) {
     
 }
-@media (min-width: 1600px) and (max-width: 1930.98px) {
+@media (min-width: 1600px) and (max-width: 5400.98px) {
     .container-fluid {
-        max-width: 1700px;
+        max-width: 1600px;
+    }
+    .c5 {
+        top: 50%;
+        left: 38%;
+        width: 574px;
+        transform: rotate(168deg);
+    }
+    .c11 {
+        top: 3%;
+        left: 40%;
+        width: 412px;
+        transform: rotate(348deg);
+    }
+    .single-page-right-part p {
+        line-height: 28px;
+        margin-bottom: 20px;
+        font-size: 19px;
+    }
+    h1.section-title {
+        font-size: 44px;
+    }
+    .single-page-left-menu ul li a.nav-link {
+        font-size: 22px;
+    }
+    .modal-lg, .modal-xl {
+        max-width: 1250px;
+    }
+    .t-details {
+        font-size: 19px;
+    }
+    .t_designation {
+        font-size: 21px;
+    }
+    section.single-member-modal .modal-body {
+        padding: 10px 35px 47px 35px;
     }
       
 }
