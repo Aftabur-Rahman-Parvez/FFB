@@ -142,7 +142,7 @@ jQuery("#news-views-banner-slider").owlCarousel({
       
     }
   },
-  navText: ['<span class="fas fa-arrow-left"></span>','<span class="fas fa-arrow-right"></span>'],
+  navText: ['<span class="flaticon-left"></span>','<span class="flaticon-right"></span>'],
 
   
 });
@@ -644,3 +644,84 @@ for (a = 0; a < acc.length; a++) {
   
   });
 }
+
+$('.video_slider').slick({
+  centerMode: false,
+  centerPadding: '0px',
+  slidesToShow: 3,
+  arrows: true,
+  prevArrow: $('.prev_3'),
+  nextArrow: $('.next_3'),
+  infinite: true,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: true,
+        centerMode: false,
+        centerPadding: '0px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: true,
+        centerMode: false,
+        centerPadding: '0px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+
+// $(".inner_2_icon_part").click(function(){
+//   $(this).hide();
+//   // $(this).siblings(".embed-responsive-item").addClass('active');
+//   // $(this.embed-responsive-item).src +="?autoplay1";
+//   // setTimeout(function(){ $("#yt").show(); }, 200);
+//   $(".embed-responsive-item")[0].src +="?autoplay=1";
+//   // setTimeout(function(){ $(".embed-responsive-item").show(); }, 200);
+//   // alert(data1);
+//   // $(this).removeClass("active");
+//   // $(this).addClass("active");
+
+// });
+
+// $(".inner_2_icon_part").click(function () {
+//   $(this).hide();
+//   $("#yt1")[0].src += "?autoplay=1";
+//   setTimeout(function(){ $("#yt1").show(); }, 200);
+// });
+
+// $(".inner_2_icon_part").click(function () {
+//   $(this).hide();
+//   $(".embed-responsive-item")[0].src += "?autoplay=1";
+//   // setTimeout(function(){ $(".embed-responsive-item").show(); }, 200);
+// });
+// var bcc = document.getElementsByClassName("inner_2");
+// var bcc;
+
+// for (b = 0; b < bcc.length; b++) {
+//   bcc[b].addEventListener("click", function() {
+//     // console.log($(this).siblings()[2],a);
+//     this.classList.toggle("active");
+//     $($(this).siblings()[2]).toggle("active");
+  
+//   });
+// }
+
+var dcc = document.getElementsByClassName("inner_2_icon_part");
+var d;
+
+for (d = 0; d < dcc.length; d++) {
+  dcc[d].addEventListener("click", function() {
+    $(this).hide();
+    var paneld = this.nextElementSibling;
+    $(paneld)[0].src += "?autoplay=1";
+    
+  });
+}
+
+
+	
