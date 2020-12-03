@@ -432,6 +432,72 @@ $(document).on('ready', function() {
 
 });
 
+// mobile menu part
+function mobilemenufunction(){
+  $('.menubar-trigger').on('click',function(e){
+    e.preventDefault();
+    $('.mobile-menu-section').addClass('is-visible')
+  })
+}
+mobilemenufunction();
+
+function closemenufunction(){
+  $('.btn-close-menu').on('click',function(e){
+      e.preventDefault();
+      $('.mobile-menu-section').removeClass('is-visible')
+  })
+}
+closemenufunction();
+
+function mainmenufunction(){
+  $('.submenu-btn').toggleClass('show-submenu');
+}
+mainmenufunction();
+
+
+
+// This will show sub navigation menu on left sidebar
+// only when that top level menu have a sub menu on it.
+$('.br-sideleft').on('click', '.br-menu-link', function(){
+  var nextElem = $(this).next();
+  var thisLink = $(this);
+
+  if(nextElem.hasClass('br-menu-sub')) {
+
+    if(nextElem.is(':visible')) {
+      thisLink.removeClass('show-sub');
+      nextElem.slideUp();
+    } else {
+      $('.br-menu-link').each(function(){
+        $(this).removeClass('show-sub');
+      });
+
+      $('.br-menu-sub').each(function(){
+        $(this).slideUp();
+      });
+
+      thisLink.addClass('show-sub');
+      nextElem.slideDown();
+    }
+    return false;
+  }
+});
+
+
+$('#btnLeftMenuMobile').on('click', function(){
+  $('body').addClass('show-left');
+  return false;
+});
+function closemenufunction(){
+  $('.btn-close-menu').on('click',function(e){
+      e.preventDefault();
+      $('body').removeClass('show-left');
+  })
+}
+closemenufunction();
+
+
+
 // $("#owl_v").owlCarousel({
 //   merge: true,
 //   loop: true,
@@ -613,6 +679,7 @@ $(document).ready(function(){
     slidesToShow: 1,
     slidesToScroll: 1,
     centerMode: false,
+    // variableWidth: true,
     asNavFor: '.slider-for',
     // arrows: true,
     prevArrow: $('.prev_1'),
@@ -719,9 +786,16 @@ for (d = 0; d < dcc.length; d++) {
     $(this).hide();
     var paneld = this.nextElementSibling;
     $(paneld)[0].src += "?autoplay=1";
+    setTimeout(function(){  $(paneld).show(); }, 200);
     
   });
 }
+
+$(".inner_2_icon_part").click(function () {
+  $(this).hide();
+  $("#yt1")[0].src += "?rel=0&autoplay=1";
+  setTimeout(function(){ $("#yt1").show(); }, 200);
+});
 
 
 	
