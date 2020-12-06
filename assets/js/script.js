@@ -7,6 +7,7 @@ $(function(){
 AOS.init({
     duration: 800,
     
+    
 });
     
 
@@ -231,6 +232,7 @@ jQuery("#our-activies-item-slider").owlCarousel({
 // another menu
 $(document).ready(function(){
   $( ".discover-btn" ).click(function() {
+
     $(this).toggleClass( "discover-btn-open" );
     $(".discover-container").toggleClass("discover-container-open" );
   });
@@ -798,11 +800,11 @@ $(".inner_2_icon_part").click(function () {
   setTimeout(function(){ $("#yt1").show(); }, 200);
 });
 
-$("button").click(function () {
-  $("#content").hide();
-  $("#yt")[0].src += "?autoplay=1";
-  setTimeout(function(){ $("#yt").show(); }, 200);
-  });
+// $("button").click(function () {
+//   $("#content").hide();
+//   $("#yt")[0].src += "?autoplay=1";
+//   setTimeout(function(){ $("#yt").show(); }, 200);
+//   });
 
 
 	

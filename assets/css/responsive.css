@@ -314,7 +314,21 @@
         width: 125px;
     }
     .navbar-light .navbar-nav .nav-link {
-        font-size: 20px;
+        font-size: 21px;
+    }
+
+    .our_main_menu .navbar-nav .nav-item {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .banner-content p {
+        font-size: 18px;
+    }
+    .what-we-do-heading-part p {
+        font-size: 14px;
+    }
+    .s_left_carosule {
+        width: 400px;
     }
     .c10 {
         top: 52%;
@@ -359,16 +373,70 @@
     .navbar-light .navbar-brand {
         width: 150px;
     }
+    .our_main_menu .navbar-nav .nav-item {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .logo_img img {
+        width: 95%;
+        margin-left: 10px;
+    }
+    /* news */
+    .news-views-item-content {
+        padding-right: 23px;
+    }
+    .news-views-title a {
+        font-size: 19px;
+        line-height: 35px;
+        letter-spacing: 1px;
+    }
+    .news-views-department-title p {
+        font-size: 13px;
+        margin-bottom: 6px;
+    }
+    .news-views-department ul li a {
+        font-size: 13px;
+    }
+    .news-views-item-content {
+        min-height: 250px;
+    }
+    h1.common_h1{
+        font-size:55px;
+    }
+    .banner-content h1 {
+        font-size: 75px;
+    }
+    .banner-content p {
+        font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    }
+    .vedio_section_title ul li {
+        font-size: 50px; 
+    }
+    .what-we-do-heading-part p {
+        font-size: 16px;
+    }
 }
 @media (min-width: 1400px) and (max-width: 1599.98px) {
     .container-fluid {
         max-width: 1500px;
     }
+    .our_main_menu .navbar-nav .nav-item {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .logo_img img {
+        width: 75%;
+        margin-left: 10px;
+    }
+    
+
     .main-title h1 {
         font-size: 55px;
     }
     .what-we-do-heading-part p {
-        font-size: 18px;
+        font-size: 17px;
     }
     .life-changing-impact-title h1 {
         font-size: 55px;
@@ -390,10 +458,65 @@
     .story-video-section h2 {
         font-size: 50px;
     }
+    /* news */
+    .news-views-item-content {
+        padding-right: 30px;
+    }
+    .news-views-title a {
+        font-size: 20px;
+        line-height: 35px;
+        letter-spacing: 1px;
+    }
+    .news-views-department-title p {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    .news-views-department ul li a {
+        font-size: 14px;
+    }
+    .news-views-item-content {
+        min-height: 250px;
+    }
+    h1.common_h1{
+        font-size:60px;
+    }
+    .banner-content h1 {
+        font-size: 80px;
+    }
+    .banner-content p {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 40px;
+    }
+    .vedio_section_title ul li {
+        font-size: 46px; 
+    }
 }
 @media (min-width: 1600px) and (max-width: 1749.98px) {
     .container-fluid {
         max-width: 1600px;
+    }
+    .our_main_menu .navbar-nav .nav-item {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .logo_img img {
+        width: 80%;
+        margin-left: 25px;
+    }
+
+    .main-body-row {
+        height: 570px;
+    }
+    .circle_common {
+        width: 200px;
+        height: 200px;
+    }
+    .common_content p {
+        font-size: 17px;
+    }
+    .common_content img {
+        width: 65px;
     }
     .c5 {
         top: 50%;
@@ -405,6 +528,60 @@
         top: 3%;
         left: 40%;
         width: 412px;
+        transform: rotate(348deg);
+    }
+    .c1 {
+        top: 45%;
+        left: 37%;
+        width: 356px;
+        transform: rotate(160deg);
+    }
+    .c7 {
+        bottom: 52%;
+        left: 5%;
+        width: 445px;
+        transform: rotate(145deg);
+    }
+    .c12 {
+        top: 24%;
+        left: 41%;
+        width: 281px;
+        transform: rotate(373deg);
+    }
+    .c14 {
+        top: 46%;
+        left: 53%;
+        width: 250px;
+        transform: rotate(264deg);
+    }
+    .c17 {
+        bottom: 37%;
+        right: 8%;
+        width: 180px;
+        transform: rotate(81deg);
+    }
+    .c10 {
+        top: 52%;
+        left: 17%;
+        width: 970px;
+        transform: rotate(14deg);
+    }
+    .c13 {
+        top: 51%;
+        left: 36%;
+        width: 390px;
+        transform: rotate(221deg);
+    }
+    .c5 {
+        top: 54%;
+        left: 38%;
+        width: 574px;
+        transform: rotate(168deg);
+    }
+    .c11 {
+        top: 2%;
+        left: 40%;
+        width: 450px;
         transform: rotate(348deg);
     }
     .single-page-right-part p {
@@ -449,11 +626,68 @@
     .life-changing-impact-title h1 {
         font-size: 55px;
     }
+    /* news */
+    .news-views-item-content {
+        padding-right: 50px;
+    }
+    .news-views-title a {
+        font-size: 20px;
+        line-height: 35px;
+        letter-spacing: 1px;
+    }
+    .news-views-department-title p {
+        font-size: 17px;
+        margin-bottom: 6px;
+    }
+    .news-views-department ul li a {
+        font-size: 17px;
+    }
+    .news-views-item-content {
+        min-height: 285px;
+    }
+    h1.common_h1{
+        font-size:65px;
+    }
+    .banner-content h1 {
+        font-size: 85px;
+    }
+    .banner-content p {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 45px;
+    }
       
 }
 @media (min-width: 1750px) and (max-width: 3900.98px) {
     .container-fluid {
         max-width: 1700px;
+    }
+    .our_main_menu .navbar-nav .nav-item {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .our_main_menu .navbar-light .navbar-nav .nav-link {
+        font-size: 27px;
+    }
+    .our_main_menu .dropdown-menu li {
+        line-height: 50px;
+    }
+    .logo_img img {
+        width: 80%;
+        margin-left: 25px;
+    }
+    .main-body-row {
+        height: 570px;
+    }
+    .circle_common {
+        width: 200px;
+        height: 200px;
+    }
+    .common_content p {
+        font-size: 17px;
+    }
+    .common_content img {
+        width: 65px;
     }
     .c1 {
         top: 45%;
@@ -486,10 +720,10 @@
         transform: rotate(81deg);
     }
     .c10 {
-        top: 55%;
+        top: 52%;
         left: 17%;
         width: 970px;
-        transform: rotate(13deg);
+        transform: rotate(14deg);
     }
     .c13 {
         top: 51%;
@@ -498,7 +732,7 @@
         transform: rotate(221deg);
     }
     .c5 {
-        top: 50%;
+        top: 54%;
         left: 38%;
         width: 574px;
         transform: rotate(168deg);
@@ -516,7 +750,7 @@
         margin-top: 15px;
     }
     h1.section-title {
-        font-size: 55px;
+        font-size: 75px;
     }
     .single-page-left-menu ul li a.nav-link {
         font-size: 22px;
@@ -568,12 +802,39 @@
         margin-top: 10px;
     }
     .banner-content h1 {
-        font-size: 85px;
+        font-size: 90px;
     }
     .banner-content p {
-        font-size: 21px;
+        font-size: 22px;
         line-height: 42px;
+        letter-spacing: 1px;
     }
+    .btn-1 {
+        width: 190px;
+        height: 55px;
+        line-height: 55px;
+        letter-spacing: 2px;
+    }
+    /* news */
+    .news-views-item-content {
+        padding-right: 50px;
+    }
+    .news-views-title a {
+        font-size: 20px;
+        line-height: 35px;
+        letter-spacing: 1px;
+    }
+    .news-views-department-title p {
+        font-size: 17px;
+        margin-bottom: 6px;
+    }
+    .news-views-department ul li a {
+        font-size: 17px;
+    }
+    .news-views-item-content {
+        min-height: 285px;
+    }
+
     .our-activies-item-content p a {
         font-size: 26px;
     }
@@ -582,6 +843,34 @@
     }
     .our-activies-item-date a {
         font-size: 17px;
+    }
+    .vedio_section_title ul li {
+        font-size: 70px;
+    }
+    h1.common_h1 {
+        font-size: 70px;
+    }
+    .footer-col-link ul li {
+        line-height: 40px;
+    }
+    .footer-col-link ul li a {
+        font-size: 22px;
+    }
+    .footer-bottom-link ul li a {
+        font-size: 16px;
+    }
+    .footer-logo img {
+        width: 170px;
+    }
+    .footer-top-list ul li a {
+        font-size: 26px;
+        font-weight: 600;
+    }
+    .footer-social-part p {
+        font-size: 34px;
+    }
+    .footer-social-part form {
+        width: 70%;
     }
 }
 @media (min-width: 1931px){

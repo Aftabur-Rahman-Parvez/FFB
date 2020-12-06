@@ -68,7 +68,7 @@ header.header-part.header-sticky{
     margin-top:-6px;
 }
 .our_main_menu .dropdown-menu > li > a:hover:after {
-    text-decoration: underline;
+    /* text-decoration: underline; */
     /* transform: rotate(-90deg); */
 } 
 .our_main_menu .dropdown-toggle::after {
@@ -104,12 +104,13 @@ header.header-part.header-sticky{
 }
 .our_main_menu .dropdown-menu li{
     border-bottom: 1px solid #F4F4F4;
+    line-height: 45px;
 }
 .our_main_menu .dropdown-menu li:last-child{
     border-bottom: none;
 }
 .our_main_menu .dropdown-menu li:first-child{
-    padding-top:20px;
+    /* padding-top:20px; */
 }
 .our_main_menu .dropdown-menu li:hover .dropdown-item{
     border-bottom-color: #B31B1B;
@@ -122,19 +123,26 @@ header.header-part.header-sticky{
     padding:0px;
     padding-left:30px;
 }
-.our_main_menu .dropdown-menu .dropdown-item:active{
+/* .our_main_menu .dropdown-menu .dropdown-item:active{
     color: #000;
-}
+} */
 
  .navbar-nav li > ul.dropdown-menu {
     display: none;
+    min-width: 220px;
+    border-radius: 0px;
+    padding-top: 30px;
+   
 
 }
 .our_main_menu .dropdown-menu .dropdown-item{
-    position:relative;
-    background:transparent;
+    position: relative;
+    background: transparent;
+    font-weight: 600;
+    color: #141414;
+    margin-bottom: 0px;
 }
-.our_main_menu .dropdown-menu .dropdown-item::after {
+/* .our_main_menu .dropdown-menu .dropdown-item::after {
     content: "";
     width: 20%;
     position: absolute;
@@ -145,15 +153,43 @@ header.header-part.header-sticky{
     border-bottom: 3px solid;
     z-index: 1;
     opacity: 0;
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
     border-bottom-color: #B31B1B;
+} */
+.our_main_menu .dropdown-menu .dropdown-item:hover{
+    font-weight: 700;
 }
-.our_main_menu .dropdown-menu .dropdown-item:hover::after {
+/* .our_main_menu .dropdown-menu .dropdown-item:hover::after {
     width: 100%;
-    opacity: .8;
+    opacity: 1;
     transform: rotate(0deg);
+    
+} */
+
+.our_main_menu .dropdown-menu .dropdown-item{
+    display: inline;
+    background-image: linear-gradient(180deg,transparent 93%,#B31B1B 0);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size .4s ease;
+}
+.our_main_menu .dropdown-menu .dropdown-item:hover{
+    background-size: 100% 100%;
+}
+
+
+.border_bottom_a{
+    display: inline;
+    background-image: linear-gradient(180deg,transparent 93%,#B31B1B 0);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size .4s ease;
+    transform: scale(1.1);
+}
+.border_bottom_a:hover{
+    background-size: 100% 100%;
 }
 /* .dropdown-menu a.dropdown-item{
     position: relative;
@@ -505,6 +541,12 @@ button.discover-btn.discover-btn-open{
     color:#fff;
     transition: all .4s ease;
     left: 37%;
+}
+.discover-btn.discover-btn-open:after {
+    content:url(../images/slider_h.png);
+    position: absolute;
+    right:0;
+    top:0;
 }
 button.discover-btn:focus {
     outline: 0px dotted;
@@ -1101,7 +1143,7 @@ button.discover-btn {
     line-height: 30px;
 }
 .news-views-title a:hover{
-    border-bottom:3px solid #B31B1B;
+    /* border-bottom:3px solid #B31B1B; */
 }
 .news-views-department-title p{
     color: #141414;
@@ -1145,6 +1187,10 @@ button.discover-btn {
 }
 .news-views-item-top-icon{
     text-align: center;
+}
+.news-views-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 /* .news-views-item-top-icon .open_icon{
     display:block;
@@ -1450,11 +1496,12 @@ button.discover-btn {
 .footer-col-link{}
 .footer-col-link ul{}
 .footer-col-link ul li {
-    line-height: 32px;
+    line-height: 38px;
 }
 .footer-col-link ul li a{
     color: #fff;
     font-size: 17px;
+    font-weight: 600;
 }
 .footer-col-link ul li a:hover{
     color:#B31B1B;
@@ -2162,7 +2209,7 @@ section.slick_syn_carosule_part {
 section.vedio_section {
     overflow: hidden;
     padding-top: 50px;
-    padding-bottom:50px;
+    padding-bottom:85px;
 }
 .video_slider .slick-slide .inner_2 {
     background-color: #000;
