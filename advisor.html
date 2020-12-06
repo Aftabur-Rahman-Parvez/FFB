@@ -14,12 +14,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    <!-- Add the slick-theme.css if you want default styling -->
-  <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
-  <!-- Add the slick-theme.css if you want default styling -->
-  <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/> -->
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.css">
+  <link rel="stylesheet" href="assets/font/flaticon.css">
   <link rel="stylesheet" href="assets/css/custom.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
@@ -27,9 +25,9 @@
   <header class="header-part">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-12 col-lg-10 col-sm-9 col-8 large-menu-div">
-          <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand pb-2" href="#">
+        <div class="col-md-8 col-lg-10 col-sm-8 col-7 large-menu-div our_main_menu">
+          <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand pb-2" href="index.html">
               <div class="logo_img">
                 <img src="assets/images/logo.png" alt="" class="img-fluid">
               </div>
@@ -40,16 +38,15 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav ml-auto">
-                
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     who we are
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">About Us</a></li>
-                    <li><a class="dropdown-item" href="#">Our Team</a></li>
-                    <li><a class="dropdown-item" href="#">Our Advisor</a></li>
-                    <li><a class="dropdown-item" href="#">Our Partner</a></li>
+                    <li><a class="dropdown-item" href="about-us.html">About Us</a></li>
+                    <li><a class="dropdown-item" href="our-team.html">Our Team</a></li>
+                    <li><a class="dropdown-item" href="advisor.html">Our Advisor</a></li>
+                    <li><a class="dropdown-item" href="partner.html">Our Partner</a></li>
                     
                     
                   </ul>
@@ -59,11 +56,14 @@
                     what we do
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">About Us</a></li>
-                    <li><a class="dropdown-item" href="#">Our Team</a></li>
-                    <li><a class="dropdown-item" href="#">Our Advisor</a></li>
-                    <li><a class="dropdown-item" href="#">Our Partner</a></li>
-                    
+                    <li><a class="dropdown-item" href="media-performance.html">Media Proffessional</a></li>
+                    <li><a class="dropdown-item" href="#">Scientists and Academia</a></li>
+                    <li><a class="dropdown-item" href="#">Research and Extension</a></li>
+                    <li><a class="dropdown-item" href="#">Nutration & Medical Community</a></li>
+                    <li><a class="dropdown-item" href="#">Youth Engagement</a></li>
+                    <li><a class="dropdown-item" href="#">NGO and Civil Society</a></li>
+                    <li><a class="dropdown-item" href="#">Policy and Regulatory Body</a></li>
+                    <li><a class="dropdown-item" href="#">Other engagement</a></li>
                     
                   </ul>
                 </li>
@@ -81,7 +81,7 @@
             </div>
           </nav>
         </div>
-        <div class="col-md-2 col-lg-2 col-4 pr-0">
+        <div class="col-md-4 col-lg-2 col-5 cl-sm-4 pr-0">
           <div class="header-right-part">
             <div class="search-option">
               <a class="search-trigger" href="#">
@@ -90,6 +90,11 @@
             </div>
             <div class="another-menu-option">
               <button type="button" class="discover-btn"></button>
+            </div>
+            <div class="navicon-left hidden-lg-up  d-xl-none">
+              <a id="btnLeftMenuMobile" href="">
+                <img src="assets/images/menu.png" alt="" class="img-fluid">
+              </a>
             </div>
           </div>
 
@@ -104,7 +109,7 @@
               <i class="fas fa-times"></i>
           </div>
           <div class="searchform-fly">
-              <p class="searchform-fly-text">Start typing and press Enter to search !</p>
+             
               <form class="search-form" action="#">
                   <input type="text" placeholder="Search">
                   <button class="search-button" type="submit">
@@ -170,12 +175,129 @@
     </section>
   </header>
 
-  <section class="single-page-banner" style="background-image: url('assets/images/about-us.png');">
+  <!-- mobile menu -->
+  <div class="mobile-menu-part ">
+    <div class="br-sideleft sideleft-scrollbar">
+      <div class="mobile-menu-logo-section">
+        <div class="mobile-menu-logo">
+          <a href="index.html"> <img src="assets/images/logo-footer.png" alt="" class="img-fluid"> </a>
+        </div>
+        <div class="close-menu-btn">
+          <a class="btn-close-menu text-right" href="#">
+              <i class="fas fa-times"></i>
+          </a>
+        </div>
+      </div>
+        
+        
+        <ul class="br-sideleft-menu">
+          
+          <li class="br-menu-item">
+            <a href="#" class="br-menu-link with-sub">
+              <i class="menu-item-icon icon ion-ios-photos-outline tx-20"></i>
+              <span class="menu-item-label">Who We Are</span>
+            </a>
+            <ul class="br-menu-sub">
+              <li class="sub-item"><a href="about-us.html" class="sub-link">About Us</a></li>
+              <li class="sub-item"><a href="our-team.html" class="sub-link">Our Team</a></li>
+              <li class="sub-item"><a href="advisor.html" class="sub-link">Our Advisor</a></li>
+              <li class="sub-item"><a href="partner.html" class="sub-link">Our Partner</a></li>
+            </ul>
+            
+          </li>
+          <li class="br-menu-item">
+            <a href="#" class="br-menu-link with-sub">
+              <i class="menu-item-icon icon ion-ios-filing-outline tx-24"></i>
+              <span class="menu-item-label">What We Do</span>
+            </a>
+            <ul class="br-menu-sub">
+              <li class="sub-item"><a href="media-performance.html" class="sub-link">Media Professional</a></li>
+              <li class="sub-item"><a href="#" class="sub-link">Scientists And Academia</a></li>
+              <li class="sub-item"><a href="#" class="sub-link">Faith Based Communities</a></li>
+              <li class="sub-item"><a href="#" class="sub-link">Research And Extension</a></li>
+              <li class="sub-item"><a href="#" class="sub-link">Nutration And Medical Community</a></li>
+              <li class="sub-item"><a href="#" class="sub-link">Youth Engagement</a></li>
+              <li class="sub-item"><a href="#" class="sub-link">NGO And Civil Society</a></li>
+              <li class="sub-item"><a href="#" class="sub-link">Policy And Regulatory Body </a></li>
+              <li class="sub-item"><a href="#" class="sub-link">Other Engagement</a></li>
+            </ul>
+          </li>
+          
+          
+          <li class="br-menu-item">
+            <a href="#" class="br-menu-link">
+              <i class="menu-item-icon icon ion-ios-paper-outline tx-22"></i>
+              <span class="menu-item-label">News & Views</span>
+            </a>
+          </li>
+          <li class="br-menu-item">
+            <a href="#" class="br-menu-link">
+              <i class="menu-item-icon icon ion-ios-paper-outline tx-22"></i>
+              <span class="menu-item-label">Resources</span>
+            </a>
+          </li>
+          <li class="br-menu-item">
+            <a href="index.html" class="br-menu-link ">
+              <i class="menu-item-icon icon ion-ios-home-outline tx-24"></i>
+              <span class="menu-item-label">Contact</span>
+            </a>
+          </li>
+
+          <li class="br-menu-item br-menu-item-last">
+            <a href="#" class="br-menu-link with-sub">
+              <i class="menu-item-icon ion-ios-redo-outline tx-24"></i>
+              <span class="menu-item-label">Others</span>
+            </a>
+            <ul class="br-menu-sub">
+
+              <!-- <li class="sub-item"><a href="#" class="sub-link">Basic Nav</a></li>
+              <li class="sub-item"><a href="#" class="sub-link">Nav Layouts</a></li>
+              <li class="sub-item"><a href="#" class="sub-link">Nav Effects</a></li> -->
+              <div class="discover-left-col">
+                <div class="discover-left-img">
+                  <img src="assets/images/1.png" alt="" class="img-fluid">
+                </div>
+                <div class="discover-left-content">
+                  <img src="assets/images/exploreFFB.png" alt="" class="img-fluid">
+                  <div class="border-borttom-div"></div>
+                  <p>All farmers should have the right to choose improved seeds that can help improve.</p>
+                </div>
+              </div>
+              <div class="discover-link">
+                <ul class="list-unstyled">
+                  <li><a href="">About FFB</a></li>
+                  <li><a href="">Education</a></li>
+                  <li><a href="">Gallery</a></li>
+                  <li><a href="">Join Us</a></li>
+                  <li><a href="">Global Leadership Fellows Program</a></li>
+                  <li><a href="">Internship Progam</a></li>
+                  <li><a href="">Media Fellowship</a></li>
+                  <li><a href="">Young Professional Fellowship</a></li>
+                </ul>
+              </div>
+
+              <div class="social-section">
+                <ul class="list-unstyled">
+                  <li><a href="" class="facebook_color"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="" class="twitter_color"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="" class="youtube_color"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+              </div>
+
+            </ul>
+          </li>
+          
+        </ul>
+  
+    </div>
+</div>
+
+  <section class="single-page-banner" style="background-image: url('assets/images/advisor.png');">
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-10 col-md-10 m-auto">
           <div class="single-page-title">
-            <h1>Our Team</h1>
+            <h1>Our Advisor</h1>
           </div>
         </div>
       </div>
@@ -210,16 +332,16 @@
                     <nav class="navbar ">
                       <ul class="navbar-nav">
                         <li class="nav-item ">
-                          <a class="nav-link" href="#">About Us</a>
+                          <a class="nav-link" href="about-us.html">About Us</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Our Team</a>
+                          <a class="nav-link" href="our-team.html">Our Team</a>
                         </li>
                         <li class="nav-item active">
-                          <a class="nav-link" href="#">Our Advisor</a>
+                          <a class="nav-link" href="advisor.html">Our Advisor</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Our Partner</a>
+                          <a class="nav-link" href="partner.html">Our Partner</a>
                         </li>
                         
 

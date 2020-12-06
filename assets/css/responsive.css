@@ -377,6 +377,19 @@
         color: #fff;
         font-size: 18px;
     }
+    .single-page-left-menu ul li a.nav-link {
+        font-size: 18px;
+    }
+    h1.section-title {
+        font-size: 50px;
+    }
+    .single-page-right-part p {
+        line-height: 30px;
+        font-size: 18px;
+    }
+    .story-video-section h2 {
+        font-size: 50px;
+    }
 }
 @media (min-width: 1600px) and (max-width: 1749.98px) {
     .container-fluid {

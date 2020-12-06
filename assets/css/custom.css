@@ -1639,7 +1639,7 @@ section.single-page-body.single-page-main-body-fixed {
 .single-page-left-menu ul li a.nav-link{
     color: #000;
     font-weight: 700;
-    font-size: 169px;
+    font-size: 16px;
 }
 .single-page-left-menu ul li.nav-item:hover{
     border-color:#B31B1B;
@@ -1824,6 +1824,16 @@ button:focus {
     margin-bottom: 4px;
     text-transform: uppercase;
 }
+.our-team-member .card-title:hover {
+    color: #B31B1B;
+}
+.our-team-member .card-img {
+    overflow: hidden;
+}
+.our-team-member .card-img:hover img {
+    transform: scale(1.2);
+    transition: all .3s;
+}
 .our-team-member p.card-text{
     line-height: 18px
 }
@@ -1945,6 +1955,31 @@ section.single-member-modal .modal-body {
 .our-partner-logo {
     text-align: center;
 }
+.our-partner-logo img:hover {
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+/* .vid {
+    width: 100vw;
+    height: 400px;
+    object-fit: cover;
+    z-index: 1;
+    position: absolute;
+    background-color: black;
+}
+#yt {
+    display: none;
+}
+p {
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+    padding-top: 100px;
+}
+button {
+    width: 100px;
+    height: 30px;
+} */
 
 /* media performance */
 .media-performance-image img {

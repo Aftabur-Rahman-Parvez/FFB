@@ -798,5 +798,11 @@ $(".inner_2_icon_part").click(function () {
   setTimeout(function(){ $("#yt1").show(); }, 200);
 });
 
+$("button").click(function () {
+  $("#content").hide();
+  $("#yt")[0].src += "?autoplay=1";
+  setTimeout(function(){ $("#yt").show(); }, 200);
+  });
+
 
 	
