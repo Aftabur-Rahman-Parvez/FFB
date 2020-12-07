@@ -140,7 +140,13 @@ jQuery("#news-views-banner-slider").owlCarousel({
     },
 
     1366: {
-      items: 2,   
+      items: 2, 
+      margin: 15,   
+      
+    },
+    1600: {
+      items: 2,  
+      margin: 25, 
       
     }
   },
