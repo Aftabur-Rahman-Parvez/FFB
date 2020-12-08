@@ -7,8 +7,8 @@
         position: relative;
         top: 100px;
     }
-    .navbar-light .navbar-brand {
-        width: 100px;
+    .our_main_menu .navbar-light .navbar-brand {
+        width: 125px;
     }
     .main-container{
         overflow-x: hidden;
@@ -630,7 +630,7 @@
         line-height: 40px;
     }
     .vedio_section_title ul li {
-        font-size: 46px; 
+        font-size: 60px; 
     }
     .s_right_carosule_title p {
         font-size: 21px;
@@ -879,6 +879,9 @@
     }
     .single-page-title h1 {
         font-size: 60px;
+    }
+    .vedio_section_title ul li {
+        font-size: 65px; 
     }
       
 }

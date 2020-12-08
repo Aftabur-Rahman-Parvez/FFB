@@ -276,7 +276,7 @@ header.header-part.header-sticky{
     display: block;
     position: relative; }
   
-  .br-menu-link {
+.br-menu-link {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -287,7 +287,9 @@ header.header-part.header-sticky{
     font-size: 14px;
     position: relative;
     border-radius: 2px;
-    transition: all 0.2s ease-in-out; }
+    transition: all 0.2s ease-in-out;
+    text-transform: uppercase;
+}
     @media screen and (prefers-reduced-motion: reduce) {
       .br-menu-link {
         transition: none; } }
@@ -355,18 +357,22 @@ header.header-part.header-sticky{
     .br-menu-sub .sub-item {
       display: block;
       position: relative; }
-    .br-menu-sub .sub-link {
+.br-menu-sub .sub-link {
       display: block;
       font-size: 13px;
       color: #adb5bd;
       padding: 7px 0 7px 17px;
       white-space: nowrap;
       position: relative;
-      transition: all 0.2s ease-in-out; }
-      @media screen and (prefers-reduced-motion: reduce) {
+      transition: all 0.2s ease-in-out;
+      text-transform: uppercase;
+    
+}
+@media screen and (prefers-reduced-motion: reduce) {
         .br-menu-sub .sub-link {
-          transition: none; } }
-      .br-menu-sub .sub-link::before {
+          transition: none; }
+}
+.br-menu-sub .sub-link::before {
         content: '';
         position: absolute;
         top: 50%;
@@ -376,17 +382,23 @@ header.header-part.header-sticky{
         height: 1px;
         background-color: #fff;
         opacity: .5;
-        transition: all 0.2s ease-in-out; }
-        @media screen and (prefers-reduced-motion: reduce) {
+        transition: all 0.2s ease-in-out;
+     
+}
+@media screen and (prefers-reduced-motion: reduce) {
           .br-menu-sub .sub-link::before {
-            transition: none; } }
-      .br-menu-sub .sub-link:hover, .br-menu-sub .sub-link:focus {
-        color:#B31B1B; }
-        .br-menu-sub .sub-link:hover::before, .br-menu-sub .sub-link:focus::before {
+            transition: none; }
+}
+.br-menu-sub .sub-link:hover, .br-menu-sub .sub-link:focus {
+        color:#B31B1B;
+     
+}
+.br-menu-sub .sub-link:hover::before, .br-menu-sub .sub-link:focus::before {
           width: 20px;
           left: -11px;
           opacity: 1;
-          background-color: #B31B1B; }
+          background-color: #B31B1B;
+}
 .br-menu-sub .sub-link.active {
         color:#B31B1B;
 }
@@ -587,7 +599,7 @@ button.discover-btn:focus {
 .discover-link ul li a{
     color: #fff;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 22px;
     letter-spacing: 1px;
     display: inline-block;
     position: relative;
