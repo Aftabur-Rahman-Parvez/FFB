@@ -588,6 +588,20 @@
     .what-we-do-heading-part p {
         font-size: 16px;
     }
+    /* our acctivities */
+    .our-activies-item-content p {
+        width: 90%;
+    }
+    .our-activies-item-content p a {
+        font-size: 23px;
+        line-height:38px;
+    }
+    .our-activies-item-continue a {
+        font-size: 17px;
+    }
+    .our-activies-item-date a {
+        font-size: 17px;
+    }
     /* about */
     .about_vedio_sec{
         width:80%;
@@ -698,8 +712,8 @@
         font-size: 22px;
     }
     .discover-left-content p {
-        line-height: 36px;
-        font-size: 16px;
+        line-height: 34px;
+        font-size: 17px;
     }
     .vedio_section_title ul li {
         font-size: 60px; 
@@ -709,6 +723,20 @@
     }
     .s_right_carosule_content a {
         font-size: 24px;
+    }
+    /* our acctivities */
+    .our-activies-item-content p {
+        width: 90%;
+    }
+    .our-activies-item-content p a {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .our-activies-item-continue a {
+        font-size: 19px;
+    }
+    .our-activies-item-date a {
+        font-size: 17px;
     }
     /* about */
     .about_vedio_sec{
@@ -896,10 +924,11 @@
     }
 
     .our-activies-item-content p a {
-        font-size: 26px;
+        font-size: 27px;
+        line-height: 40px;
     }
     .our-activies-item-continue a {
-        font-size: 19px;
+        font-size: 20px;
     }
     .our-activies-item-date a {
         font-size: 17px;
@@ -929,6 +958,10 @@
     .discover-link ul li a {
         font-size: 26px;
     }
+    .discover-btn.discover-btn-open:before {
+        font-size: 25px;
+    }
+    /* footer */
     .footer-col-link ul li {
         line-height: 40px;
     }
@@ -1149,6 +1182,9 @@
     .discover-link ul li a {
         font-size: 28px;
     }
+    .discover-btn.discover-btn-open:before {
+        font-size: 25px;
+    }
     /* news */
     .news-views-item-content {
         padding-right: 35px;
@@ -1168,10 +1204,11 @@
         font-size: 17px;
     }
     .our-activies-item-content p a {
-        font-size: 26px;
+        font-size: 29px;
+        line-height: 40px;
     }
     .our-activies-item-continue a {
-        font-size: 19px;
+        font-size: 21px;
     }
     .our-activies-item-date a {
         font-size: 17px;

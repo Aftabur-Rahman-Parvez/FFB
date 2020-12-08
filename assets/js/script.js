@@ -119,7 +119,7 @@ jQuery("#news-views-banner-slider").owlCarousel({
   autoplay: false,
   lazyLoad: true,
   loop: true,
-  margin: 10,
+  margin: 15,
   responsiveClass: true,
   autoHeight: false,
   autoplayTimeout: 7000,
@@ -145,12 +145,12 @@ jQuery("#news-views-banner-slider").owlCarousel({
 
     1366: {
       items: 2, 
-      margin: 15,   
+      margin: 25,   
       
     },
     1600: {
       items: 2,  
-      margin: 25, 
+      margin: 30, 
       
     }
   },
@@ -203,7 +203,7 @@ jQuery("#our-activies-item-slider").owlCarousel({
   autoplay: false,
   lazyLoad: true,
   loop: true,
-  margin:20,
+  margin:30,
   responsiveClass: true,
   autoHeight: false,
   autoplayTimeout: 7000,
@@ -236,7 +236,7 @@ jQuery("#our-activies-item-slider").owlCarousel({
       
     }
   },
-  navText: ['<span class="fas fa-arrow-left"></span>','<span class="fas fa-arrow-right"></span>'],
+  navText: ['<span class="flaticon-left"></span>','<span class="flaticon-right"></span>'],
 
   
 });

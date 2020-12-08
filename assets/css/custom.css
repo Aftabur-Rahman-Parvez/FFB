@@ -629,11 +629,33 @@ button.discover-btn.discover-btn-open{
     background: #B31B1B;
 }
 .discover-btn.discover-btn-open:before {
-    content: "\f00d";
+    /* content: "\f00d";
     font-family: 'Font Awesome\ 5 Free';
     color:#fff;
     transition: all .4s ease;
+    left: 37%; */
+    /* content:url(../images/h_cross.png);
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%); */
+
+    /* content: ' ';
+    display: inline-block;
+    position: absolute;
+    background: url(../images/h_cross.png) no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+    top: 50%;
+    left: 46%;
+    transform: translate(-50%,-50%); */
+    content: "\f104";
+    font-family: 'Flaticon';
+    color:#fff;
+    transition: all .4s ease;
     left: 37%;
+    font-size: 20px;
 }
 .discover-btn.discover-btn-open:after {
     content:url(../images/slider_h.png);
@@ -1390,8 +1412,9 @@ button.discover-btn {
     text-transform: uppercase;
 }
 .new-view-slider-par-body .owl-nav button span:before{
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 700;
+    color: #141414;
 }
 .new-view-slider-par-body .owl-theme .owl-nav [class*=owl-]:hover {
     background: #B31B1B;
@@ -1613,13 +1636,13 @@ button.discover-btn {
 }
 .footer-social-section ul li a {
     background-color: #fff;
-    width: 40px;
+    width: 45px;
     display: inline-block;
     text-align: center;
-    height: 40px;
-    line-height: 40px;
+    height: 45px;
+    line-height: 45px;
     border-radius: 50%;
-    font-size: 16px;
+    font-size: 20px;
     margin-left: 10px;
     margin-right: 10px;
     transition: all .3s;
@@ -1798,6 +1821,7 @@ section.single-page-body.single-page-main-body-fixed {
     color: #000;
     font-weight: 700;
     font-size: 16px;
+    text-transform: uppercase;
 }
 .single-page-left-menu ul li.nav-item:hover{
     border-color:#B31B1B;
@@ -1914,6 +1938,7 @@ h1.section-title:after {
     color: #B31B1B;
     font-weight: 600;
     font-size: 20px;
+    letter-spacing: 1px;
 }
 .our-activies-item-date a {
     color: #141414;
@@ -1929,6 +1954,7 @@ h1.section-title:after {
 .our-activies-item-continue a {
     color: #B31B1B;
     font-weight: 700;
+    font-size: 16px;
 }
 .our-activities-carosule .owl-nav {
     display: flex;
@@ -1945,15 +1971,22 @@ button:focus {
 }
 .our-activities-carosule .owl-theme .owl-nav button{
     border: 1px solid transparent;
-    padding: 20px;
-    display: inline-block;
-    height: 31px;
-    width: 30px;
+    /* padding: 20px; */
+    /* display: inline-block; */
+    /* height: 45px; */
+    /* width: 45px; */
     color: #141414;
+    /* font-size: 30px;*/
 }
 .our-activities-carosule .owl-theme .owl-nav button.owl-next{
     border-color:#B31B1B;
     color:#B31B1B;
+    border-radius: 0px;
+}
+.our-activities-carosule .owl-theme .owl-nav button span::before {
+    font-size: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /* meet our team */
@@ -1986,6 +2019,7 @@ button:focus {
 }
 .our-team-member .card-img {
     overflow: hidden;
+    border-radius: 0px;
 }
 .our-team-member .card-img:hover img {
     transform: scale(1.2);
@@ -2077,10 +2111,9 @@ section.single-member-modal .modal-body {
 .advisor-col{
     position: relative;
     max-height: 348px;
+    margin-bottom: 30px;
 }
-.advisor-details{
 
-}
 .advisor-details {
     position: absolute;
     bottom: 0;
@@ -2091,7 +2124,9 @@ section.single-member-modal .modal-body {
     padding-bottom: 25px;
     padding-right: 10px;
     transition: all .3s;
-    display:block;
+    display: block;
+    opacity: 1;
+    backdrop-filter: blur(4px);
 }
 .advisor-details p.advisor_name {
     color: #fff;
