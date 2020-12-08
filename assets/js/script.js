@@ -5,10 +5,14 @@ $(function(){
 });
 
 AOS.init({
-    duration: 800,
-    
-    
+    duration: 800, 
 });
+
+// $(window).on('load', function() {
+//   $(".preloder_part").fadeOut();
+//   $(".spinner").delay(1000).fadeOut("slow");
+// });
+
     
 
 $(document).ready(function(){
@@ -215,6 +219,10 @@ jQuery("#our-activies-item-slider").owlCarousel({
 
     600: {
       items: 1,
+      
+    },
+    768: {
+      items: 2,
       
     },
 
