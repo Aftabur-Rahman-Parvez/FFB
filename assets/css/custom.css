@@ -190,6 +190,7 @@ header.header-part.header-sticky{
 }
 .our_main_menu .dropdown-menu li:first-child{
     /* padding-top:20px; */
+    box-shadow: 0px -3px 2px -1px rgba(0,0,0,.1);
 }
 .our_main_menu .dropdown-menu li:hover .dropdown-item{
     border-bottom-color: #B31B1B;
@@ -1260,13 +1261,14 @@ button.discover-btn {
     color: #B31B1B;
     margin-top: 10px;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 20px;
     line-height: 30px;
 }
 .news-views-title a:hover{
     /* border-bottom:3px solid #B31B1B; */
+    font-weight: 700;
 }
 .news-views-department-title p{
     color: #141414;
@@ -1414,10 +1416,11 @@ button.discover-btn {
 .new-view-slider-par-body .owl-nav button span:before{
     font-size: 32px;
     font-weight: 700;
-    color: #141414;
+    /* color: #141414; */
 }
 .new-view-slider-par-body .owl-theme .owl-nav [class*=owl-]:hover {
     background: #B31B1B;
+    color:#fff;
 }
 
 
@@ -1926,7 +1929,7 @@ h1.section-title:after {
     margin-bottom: 20px;
 }
 .our-activies-item-content{
-    min-height: 185px;
+    min-height: 210px;
     padding: 20px;
 }
 .our-activies-item-content p {
@@ -1939,6 +1942,10 @@ h1.section-title:after {
     font-weight: 600;
     font-size: 20px;
     letter-spacing: 1px;
+}
+.our-activies-item-content p a:hover {
+    font-weight: 700;
+    transition: all .3s ease;
 }
 .our-activies-item-date a {
     color: #141414;
@@ -2035,6 +2042,7 @@ button:focus {
     padding-right: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
+    min-height: 110px;
 }
 .our-team-member .card-title {
     font-size: 16px;
@@ -2355,7 +2363,83 @@ section.slick_syn_carosule_part {
     width: 50%;
 }
 .interactive-map-part .map-hover-color{
-    fill:blue;
+    fill:#D98D8D;
+}
+.interactive-map-part .worldMaps{
+    fill:#5A0E0E;
+}
+
+/* set location */
+.set-location{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.interactive-map-part .set-location .pin {
+    position: absolute;
+    white-space: nowrap;
+    transform: rotate(-90deg) translate(0,0);
+    transform-origin: top left;
+    transition: all ease .2s;
+}
+.interactive-map-part .set-location .world-pin .pin span{
+    color: #fff;
+}
+.interactive-map-part .set-location .world-pin .pin span {
+    position: absolute;
+    display: block;
+    line-height: 1;
+    transform: rotate(0) translate(0,0);
+    width: auto;
+    height: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+}
+.interactive-map-part .set-location .world-pin .north-america {
+    
+}
+.interactive-map-part .set-location .pin:after {
+    content: "";
+    height: 0;
+    border-top: 1px solid #fff;
+    position: absolute;
+    top: 50%;
+}
+.interactive-map-part .set-location .pin:after {
+    width: 55px;
+    left: -65px;
+}
+.interactive-map-part .set-location .world-pin .pin.active span{
+    
+}
+.interactive-map-part .set-location .world-pin .pin.active span {
+    transform: rotate(90deg) translate(-50%,5%);
+    white-space: normal;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    line-height: 1;
+    padding: 10px;
+    background: #5a0e0e;
+}
+.pin{}
+.pin.north-america{
+    left: 15%;
+    top: 6%;
+}
+.pin.europe {
+    left: 55%;
+    top: 5%;
+}
+.pin.australia{
+    right: 21%;
+    bottom: 57%;
 }
 
 

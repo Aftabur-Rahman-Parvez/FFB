@@ -687,7 +687,7 @@ $(document).ready(function(){
     slidesToShow: 1,
     slidesToScroll: 1,
     dots: true,
-    // dotsClass: 'custom-dots',
+    dotsClass: 'custom-dots slick-dots',
     arrows: false,
     fade: true,
     asNavFor: '.slider-nav'
@@ -706,11 +706,30 @@ $(document).ready(function(){
   });
 })
 
+// $("button").click(function(){
+//   alert('h1')
+//   var data1 = $('.slick-current .img_1').data('title');
+//   // var data2 = $('.slick-current .img_1').data('title');
+//   // alert(data1);
+//   $(".map_1").removeClass("map-hover-color");
+//   $(".pin").removeClass("active");
+//   // $(".pin").removeClass("active");
+//   $("#"+data1).addClass("map-hover-color");
+//   $("."+data1).addClass("active");
+//   // $("#"+data2).addClass("active");
+
+// });
+
 $(".next_1").click(function(){
   var data1 = $('.slick-current .img_1').data('title');
+  // var data2 = $('.slick-current .img_1').data('title');
   // alert(data1);
   $(".map_1").removeClass("map-hover-color");
+  $(".pin").removeClass("active");
+  // $(".pin").removeClass("active");
   $("#"+data1).addClass("map-hover-color");
+  $("."+data1).addClass("active");
+  // $("#"+data2).addClass("active");
 
 });
 // $(".news_accordian").click(function(){
