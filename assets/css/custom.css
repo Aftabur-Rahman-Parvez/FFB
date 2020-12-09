@@ -2006,12 +2006,17 @@ button:focus {
 .our-team-member .card {
     border: none;
     min-height: 370px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     transition: all .4s;
 }
 .our-team-member .card:hover {
     -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
+}
+.our-team-member .card:hover .card-body {
+    padding-left: 10px;
+    transition: all .8s ease;
+    padding-right: 10px;
 }
 
 .our-team-member .card-title:hover {
@@ -2110,14 +2115,22 @@ section.single-member-modal .modal-body {
 /* advisor part */
 .advisor-col{
     position: relative;
-    max-height: 348px;
+    height: 360px;
     margin-bottom: 30px;
+}
+.advisor-col .card-img{
+    height:100%;
+}
+.advisor-col .card-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .advisor-details {
     position: absolute;
     bottom: 0;
-    background: linear-gradient(180deg, rgba(219, 4, 4, 0.285) 0%, rgba(0, 0, 0, 0.15) 100%);
+    background: linear-gradient(180deg, rgb(219 4 4 / 62%) 0%, rgb(0 0 0 / 55%) 100%);
     width: 100%;
     padding-left: 15px;
     padding-top: 20px;
@@ -2126,11 +2139,10 @@ section.single-member-modal .modal-body {
     transition: all .3s;
     display: block;
     opacity: 1;
-    backdrop-filter: blur(4px);
 }
 .advisor-details p.advisor_name {
     color: #fff;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 5px;
     line-height: 20px;
@@ -2140,7 +2152,7 @@ section.single-member-modal .modal-body {
     color: #fff;
     font-weight: 400;
     text-transform: uppercase;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     line-height: 20px;
     font-size: 13px;
 }
