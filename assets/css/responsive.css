@@ -7,8 +7,22 @@
         position: relative;
         top: 100px;
     }
+    .navicon-left {
+        text-align: left;
+        justify-content: left; 
+        height:90px; 
+    }
+    .search-option {
+        height: 90px;
+    }
+    .navicon-left a img{
+        width: 75%;
+    }
+    .banner-content h1 {
+        font-size: 55px;
+    }
     .our_main_menu .navbar-light .navbar-brand {
-        width: 125px;
+        width: 135px;
     }
     .discover-left-col {
         margin-top: 10px;
@@ -47,6 +61,10 @@
     }
     .common_content p {
         font-size: 11px;
+    }
+    .circle_common {
+        width: 130px;
+        height: 130px;
     }
     .circle_9 {
         top: 0%;
@@ -325,6 +343,11 @@
     .single-page-left-menu-body {
         padding-top: 20px;
     }
+
+    /* map slider */
+    .s_right_carosule {
+        left: 12%;
+    }
     
 }
 
@@ -521,16 +544,16 @@
         padding-right: 0px;
     }
     /* team */
-    .our-team-member .card-title {
+    .card-member-common .card-title {
         font-size: 16px;
         letter-spacing: 0px;
     }
-    .our-team-member p.card-text {
+    .card-member-common p.card-text {
         line-height: 26px;
         font-size: 12px;
         letter-spacing: 0px;
     }
-    .our-team-member .card {
+    .card-member-common .card {
         min-height: 330px;
     }
     /* advisor */
@@ -570,20 +593,26 @@
     
 }
 @media (min-width: 1200px){
-    
+    .navbar-light .navbar-brand {
+        width: 215px;
+    }
+    .header-sticky .logo_img img {
+        width: 90%;
+    }
 }
 @media (min-width: 1200px) and (max-width: 1399.98px) {
     .navbar-light .navbar-brand {
-        width: 150px;
+        width: 215px;
     }
     .our_main_menu .navbar-nav .nav-item {
         margin-left: 15px;
         margin-right: 15px;
     }
     .logo_img img {
-        width: 95%;
+        width:100%;
         margin-left: 10px;
     }
+    
     /* news */
     .news-views-item-content {
         padding-right: 23px;
@@ -664,11 +693,11 @@
         font-size: 60px;
     }
     /* team */
-    .our-team-member .card-title {
+    .card-member-common .card-title {
         font-size: 17px;
         letter-spacing: 0px;
     }
-    .our-team-member p.card-text {
+    .card-member-common p.card-text {
         line-height: 26px;
         font-size: 14px;
         letter-spacing: 0px;
@@ -683,9 +712,10 @@
         margin-right: 20px;
     }
     .logo_img img {
-        width: 75%;
+        width: 100%;
         margin-left: 10px;
     }
+
     
 
     .main-title h1 {
@@ -798,11 +828,11 @@
         font-size: 65px;
     }
     /* team */
-    .our-team-member .card-title {
+    .card-member-common .card-title {
         font-size: 20px;
         letter-spacing: 1px;
     }
-    .our-team-member p.card-text {
+    .card-member-common p.card-text {
         line-height: 26px;
         font-size: 14px;
         letter-spacing: 1px;
@@ -817,7 +847,7 @@
         margin-right: 30px;
     }
     .logo_img img {
-        width: 80%;
+        width: 100%;
         margin-left: 25px;
     }
 
@@ -915,8 +945,10 @@
         max-width: 1250px;
     }
     .t-details {
-        font-size: 19px;
+        font-size: 20px;
     }
+    
+
     .t_designation {
         font-size: 21px;
     }
@@ -1048,11 +1080,11 @@
         font-size: 65px; 
     }
     /* team */
-    .our-team-member .card-title {
+    .card-member-common .card-title {
         font-size: 21px;
         letter-spacing: 1px;
     }
-    .our-team-member p.card-text {
+    .card-member-common p.card-text {
         line-height: 26px;
         font-size: 16px;
         letter-spacing: 1px;
@@ -1074,7 +1106,7 @@
         line-height: 50px;
     }
     .logo_img img {
-        width: 80%;
+        width: 100%;
         margin-left: 25px;
     }
     .search-option a.search-trigger {
@@ -1305,11 +1337,11 @@
         font-size: 70px;
     }
     /* team */
-    .our-team-member .card-title {
+    .card-member-common .card-title {
         font-size: 21px;
         letter-spacing: 2px;
     }
-    .our-team-member p.card-text {
+    .card-member-common p.card-text {
         line-height: 26px;
         font-size: 16px;
         letter-spacing: 1px;
@@ -1322,7 +1354,8 @@
 
 @media (min-width: 576px){
     .vedio_section .slick-slider {
-        left: calc(((100vw - 540px)/ 2) + 15px);
+        /* left: calc(((100vw - 540px)/ 2) + 15px); */
+        left:0;
     }
 }
 @media (min-width: 768px){

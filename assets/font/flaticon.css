@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 08/12/2020 13:22
+  	Creation date: 10/01/2021 15:49
   	*/
 
 @font-face {
@@ -36,3 +36,4 @@ margin-left: 20px;
 .flaticon-menu:before { content: "\f103"; }
 .flaticon-cancel:before { content: "\f104"; }
 .flaticon-cancel-1:before { content: "\f105"; }
+.flaticon-microphone:before { content: "\f106"; }
