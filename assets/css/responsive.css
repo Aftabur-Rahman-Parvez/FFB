@@ -165,6 +165,24 @@
     .breadcrumb-header-part {
         padding-top: 15px;
     }
+
+    /* map */
+    .life-changing-impact-title {
+        position: relative;
+        z-index: 11;
+        padding-bottom: 50px;
+    }
+    .interactive-map-part {
+        position: absolute;
+        top: -205px;
+        left: 0%;
+        width: 100%;
+        z-index: 0;
+    }
+    .set-location {
+
+        display: none;
+    }
     /* menu */
     .another-menu-option {
         display: none;
@@ -239,7 +257,7 @@
         top: 100px;
     }
     .navbar-light .navbar-brand {
-        width: 100px;
+        width: 150px;
     }
     .main-container{
         overflow-x: hidden;
@@ -308,6 +326,9 @@
     .navicon-left {
         display: flex!important;
     }
+    .header-sticky .navicon-left {
+        height:90px;
+    }
 
     .br-menu-link {
         font-size: 22px;
@@ -322,6 +343,14 @@
     .discover-left-col {
         margin-top: 10px;
         margin-bottom: 30px;
+    }
+    /* map */
+    .s_left_carosule {
+        width: 350px;
+    }
+    .interactive-map-part {
+        left: 55%;
+        width: 45%;
     }
     /* about */
     .about_vedio_sec{
@@ -347,6 +376,42 @@
     /* map slider */
     .s_right_carosule {
         left: 12%;
+    }
+
+    /* circle */
+    .main-body-row {
+        height: 550px;
+    }
+    .circle_8 {
+        top: 30%;
+        left: 5%;
+    }
+    .circle_7 {
+        top: 0%;
+        left: 10%;
+    }
+    .circle_6 {
+        top: 13%;
+        right: 39%;
+    }
+    .circle_9 {
+        top: -2%;
+        right: 8%;
+    }
+    .circle_5 {
+        bottom: 40%;
+        right: 10%;
+    }
+    .circle_3 {
+        bottom: 1%;
+        left: 51%;
+    }
+    .circle_4 {
+        bottom: 1%;
+        left: 75%;
+    }
+    .news-views-item-content {
+        width: 100%;
     }
     
 }

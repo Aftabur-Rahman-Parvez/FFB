@@ -798,7 +798,7 @@ button.discover-btn:focus {
     height: 90px;
 }
 .header-sticky .discover-container{
-    top: 90px;
+    top: 89px;
 }
 .search-option a.search-trigger {
     width: 100%;
@@ -816,6 +816,7 @@ button.discover-btn:focus {
 }
 .search-option a.microphone-trigger i:before {
     margin-left: 0px;
+    font-size: 24px;
 }
 .another-menu-option {
     width: 50%;
@@ -1740,8 +1741,10 @@ button.discover-btn {
     margin-left:0px;
 }
 .hear_more_form button:hover{
-    color: #B31B1B;
-    border: 1px solid #B31B1B;
+    color: #fff;
+    border: 1px solid #0DB04B;
+    background: #0DB04B;
+    transition: all .3s ease-in;
 }
 .hear_more_form {
     margin-top: 25px;
@@ -1803,7 +1806,8 @@ button.discover-btn {
     z-index:9;
 }
 .breadcrumb-list {
-    padding-left: 40px;
+    /* padding-left: 40px; */
+    padding-left: 0px;
 }
 .breadcrumb-list ul {
     margin-bottom: 0px;
@@ -2104,6 +2108,9 @@ button:focus {
 }
 .linkedin_color {
     color: #225982;
+}
+.user_color {
+    color: #000;
 }
 .team_social_link {
     /* margin-top: 10px; */

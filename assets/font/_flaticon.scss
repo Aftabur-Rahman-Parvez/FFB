@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 10/01/2021 15:49
+    Creation date: 11/01/2021 11:37
     */
 
     @font-face {
@@ -44,6 +44,7 @@
 .flaticon-cancel:before { content: "\f104"; }
 .flaticon-cancel-1:before { content: "\f105"; }
 .flaticon-microphone:before { content: "\f106"; }
+.flaticon-user:before { content: "\f107"; }
     
     $font-Flaticon-right: "\f100";
     $font-Flaticon-left: "\f101";
@@ -52,3 +53,4 @@
     $font-Flaticon-cancel: "\f104";
     $font-Flaticon-cancel-1: "\f105";
     $font-Flaticon-microphone: "\f106";
+    $font-Flaticon-user: "\f107";
